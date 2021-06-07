@@ -1,0 +1,52 @@
+/* pc */
+/* tablet */
+
+
+
+
+
+/* mobile */
+@media(max-width: 739px){
+    .s-width-full{
+        width: 100%;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    /* menu sẽ bị mất dùng position: relative để hiển thị  */
+    /* chiếm được khoảng không gian full khi dùng display:block */
+    #header__nav {
+        display: block;
+    }
+    #header__nav  >li  {
+    display: block;
+    }
+    #header__nav  >li:first-child{
+        display: inline-block;
+    }
+    .header__subnav{
+        position: initial;
+        background-color: #333;
+    }
+    .btn-search {
+        display: none;
+    }
+    .btn-menu{
+        display: block;
+    }
+    .content__item--member .member{
+        width: 90%;
+    }
+    
+
+   
+
+
+
+
+
+
+
+
+}
